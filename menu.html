@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="kiri">
+            <span class="logo">R</span>
+            <h2>RasaKita</h2>
+        </div>
+        <nav class="nav-container">
+            <a href="index.html">home</a>
+            <a href="menu.html" class="active">menu</a>
+            <a href="login.html">login</a>
+        </nav>
+    </header>
+    <hr>
+
+    <!-- judul -->
+    <h2 class="judul">menu kami</h2>
+
+    <!-- tiga kotak menu -->
+    <section class="daftar-menu">
+        <div class="kotak">
+            <img src="img.img" alt="foto"> 
+            <h3>beef burger</h3>
+            <p>Rp25.000</p>
+            <button onclick="pesan('beef burger', 25000)">pesan</button>
+        </div>
+
+        <div class="kotak">
+            <img src="img.img" alt="pizza">
+            <h3>pizza keju</h3>
+            <p>Rp32.000</p>
+            <button onclick="pesan('pizza keju', 32000)">pesan</button>
+        </div>
+
+        <div class="kotak">
+            <img src="img.img" alt="ayam">
+            <h3>paket ayam</h3>
+            <p>Rp22.000</p>
+            <button onclick="pesan('paket ayam', 22000)">pesan</button>
+        </div>
+    </section>
+
+    <!-- kotak panjang di bawah -->
+    <section class="keranjang">
+        <p id="hasil">belum ada pesanan</p>
+    </section>
+</body>
+</html>

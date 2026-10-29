@@ -1,0 +1,81 @@
+body {
+    font-family: sans-serif;
+    margin: 10px;
+}
+
+/* header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kiri {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    border: 1px solid black;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+.nav-container a {
+    margin-left: 15px;
+    color: black;
+}
+
+.active {
+    font-weight: bold;
+}
+
+/* halaman home */
+.banner {
+    border: 1px solid black;
+    width: 600px;
+    margin: 80px auto;
+    padding: 40px;
+    text-align: center;
+}
+
+/* halaman menu */
+.judul {
+    text-align: center;
+}
+
+.daftar-menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.kotak {
+    border: 1px solid black;
+    width: 220px;
+    padding: 10px;
+    text-align: center;
+}
+
+.kotak img {
+    width: 200px;
+    height: 140px;
+}
+
+.keranjang {
+    border: 1px solid black;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+/* halaman login */
+.form-login {
+    width: 250px;
+    margin: 40px auto;
+}
+
+.form-login input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
